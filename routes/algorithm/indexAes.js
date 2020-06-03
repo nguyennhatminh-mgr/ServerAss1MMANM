@@ -209,7 +209,7 @@ class KriptaAES {
 
             // Start my change
             var arr_path = path.split('\\');
-            var newPath = userpath + arr_path[arr_path.length-1];
+            var newPath = userpath + 'Dec_' + arr_path[arr_path.length-1];
             newPath = newPath.replace(/\.enc$/, '');
             // End my change
 
